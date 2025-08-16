@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grammar Mindmaps</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .mermaid {
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>1️⃣ Pronouns</h2>
+<div class="mermaid">
+graph TD
+    A[Pronouns] --> B[Personal]
+    A --> C[Possessive]
+    A --> D[Reflexive]
+    A --> E[Demonstrative]
+    A --> F[Interrogative]
+    A --> G[Relative]
+    A --> H[Indefinite]
+    A --> I[Reciprocal]
+    A --> J[Distributive]
+    A --> K[Emphatic]
+
+    B --> B1[Subject: I, you, he, she, it, we, they <br/> আমি, তুমি, সে, আমরা, তারা]
+    B --> B2[Object: me, you, him, her, it, us, them <br/> আমাকে, তোমাকে, তাকে, আমাদের, তাদের]
+
+    C --> C1: mine, yours, his, hers, its, ours, theirs <br/> আমার, তোমার, তার, আমাদের, তাদের
+    D --> D1: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves <br/> নিজে
+    E --> E1: this, that, these, those <br/> এটা, ওটা, এগুলো, ওগুলো
+    F --> F1: who, whom, whose, which, what <br/> কে, কার, কোন, কী
+    G --> G1: who, whom, whose, which, that <br/> যে, যার, যাকে, যা
+    H --> H1: someone, anyone, everyone, nobody, everything <br/> কেউ, কেউ, সবাই, কেউ না, সবকিছু
+    I --> I1: each other, one another <br/> একে অপরকে
+    J --> J1: each, either, neither <br/> প্রত্যেকে, যেকোনো, উভয় নয়
+    K --> K1: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves <br/> নিজেই
+</div>
+
+<h2>2️⃣ Conjunctions</h2>
+<div class="mermaid">
+graph TD
+    A[Conjunctions] --> B[Coordinating]
+    A --> C[Subordinating]
+    A --> D[Correlative]
+
+    B --> B1[For: I stayed home, for it was raining. <br/> আমি বাড়িতে ছিলাম, কারণ বৃষ্টি হচ্ছিল।]
+    B --> B2[And: She sings and dances. <br/> সে গান গায় এবং নাচে।]
+    B --> B3[Nor: He didn’t call, nor write. <br/> সে ফোন করেনি, চিঠিও লেখেনি।]
+    B --> B4[But: I am tired, but happy. <br/> আমি ক্লান্ত, কিন্তু খুশি।]
+    B --> B5[Or: You can eat now or later. <br/> তুমি এখন বা পরে খেতে পারো।]
+    B --> B6[Yet: He is rich, yet unhappy. <br/> সে ধনী, তবুও অসুখী।]
+    B --> B7[So: It rained, so we stayed inside. <br/> বৃষ্টি হলো, তাই আমরা ভেতরে থাকলাম।]
+
+    C --> C1[Because: I stayed home because it rained. <br/> আমি বাড়িতে ছিলাম কারণ বৃষ্টি হচ্ছিল।]
+    C --> C2[Although: Although he is old, he works hard. <br/> যদিও সে বৃদ্ধ, সে কঠোর পরিশ্রম করে।]
+    C --> C3[Since: I have been here since morning. <br/> আমি সকাল থেকে এখানে আছি।]
+    C --> C4[Unless: You won't pass unless you study. <br/> তুমি পড়াশোনা না করলে পাশ করবে না।]
+    C --> C5[While: She cooked while he cleaned. <br/> সে রান্না করছিল, আর সে পরিষ্কার করছিল।]
+    C --> C6[Though: Though it rained, we played. <br/> বৃষ্টি হলেও আমরা খেললাম।]
+    C --> C7[If: If it rains, we will stay home. <br/> বৃষ্টি হলে আমরা বাড়িতে থাকব।]
+    C --> C8[After: I went out after he arrived. <br/> সে আসার পর আমি বের হলাম।]
+    C --> C9[Before: Wash your hands before eating. <br/> খাওয়ার আগে হাত ধুয়ে নাও।]
+    C --> C10[Until: Wait until I come. <br/> আমি আসা পর্যন্ত অপেক্ষা করো।]
+
+    D --> D1[Either...or: You can either stay or leave. <br/> তুমি হয় থাকো নয়তো চলে যাও।]
+    D --> D2[Neither...nor: Neither he nor I was ready. <br/> না সে, না আমি প্রস্তুত ছিলাম।]
+    D --> D3[Not only...but also: He is not only smart but also hardworking. <br/> সে শুধু বুদ্ধিমান নয় বরং পরিশ্রমীও।]
+    D --> D4[Both...and: She is both kind and wise. <br/> সে দয়ালু এবং জ্ঞানী দুটোই।]
+    D --> D5[Whether...or: I don’t know whether he will come or not. <br/> আমি জানি না সে আসবে কি না।]
+</div>
+
+<h2>3️⃣ Prepositions</h2>
+<div class="mermaid">
+graph TD
+    A[Prepositions] --> B[Time]
+    A --> C[Place/Position]
+    A --> D[Direction]
+    A --> E[Cause/Purpose]
+    A --> F[Agent/Instrument]
+
+    B --> B1[At: I wake up at 7 AM. <br/> আমি সকাল ৭টায় উঠি।]
+    B --> B2[On: The meeting is on Monday. <br/> মিটিংটি সোমবার।]
+    B --> B3[In: I was born in 2000. <br/> আমি ২০০০ সালে জন্মেছি।]
+
+    C --> C1[At: She is at home. <br/> সে বাড়িতে।]
+    C --> C2[In: The keys are in the bag. <br/> চাবি ব্যাগের ভিতরে।]
+    C --> C3[On: The book is on the table. <br/> বইটি টেবিলের উপরে।]
+
+    D --> D1[To: I go to school. <br/> আমি স্কুলে যাই।]
+    D --> D2[Into: She ran into the room. <br/> সে ঘরে দৌড়ে প্রবেশ করল।]
+    D --> D3[Toward: He walked toward me. <br/> সে আমার দিকে চলে এলো।]
+
+    E --> E1[For: This gift is for you. <br/> এই উপহার তোমার জন্য।]
+    E --> E2[Because of: He was late because of traffic. <br/> ট্রাফিকের কারণে সে দেরি করেছে।]
+
+    F --> F1[By: The book was written by him. <br/> বইটি তার দ্বারা লেখা হয়েছে।]
+    F --> F2[With: She cut the paper with scissors. <br/> সে কাঁচি দিয়ে কাগজ কেটেছে।]
+</div>
+
+</body>
+</html>
